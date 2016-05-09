@@ -1,5 +1,5 @@
 build:
-  image: bitwalker/alpine-elixir-phoenix:2.0
+  image: bitwalker/alpine-elixir-phoenix:latest
   commands:
     - scripts/ci/install_local_dependencies.sh
     - scripts/ci/execute_tests.sh
